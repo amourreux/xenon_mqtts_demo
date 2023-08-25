@@ -1,0 +1,13 @@
+{
+  "name": "xenon_mqtts_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "None",
+  "author": "Emre Portakal",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  }
+}
