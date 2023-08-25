@@ -27,7 +27,7 @@ let counterError = 0
 
 const checkAllClientSubStatus = () => {
    if(counterError + counterSuccess === MAX_CLIENTS){
-      console.log(`All clients tried to connect...  successes: ${counterSuccess} errors: ${counterError} connect... Ready to send message all subscribed...`)
+      console.log(`All clients tried to connect...  successes: ${counterSuccess} errors: ${counterError}. Ready to send message to all subscribed...`)
       return true
    }
 
