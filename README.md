@@ -28,5 +28,9 @@ For basic usage
 node index.js
 ```
 
+For with 100 subs.
 
+```bash
+node index-hundred-subs.js
+```
 
